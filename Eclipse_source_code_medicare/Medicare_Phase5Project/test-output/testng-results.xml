@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="101522" started-at="2022-09-01T23:52:08 AEST" finished-at="2022-09-01T23:53:50 AEST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="101522" started-at="2022-09-01T23:52:08 AEST" finished-at="2022-09-01T23:53:50 AEST">
+      <class name="admin.adminTestCases">
+        <test-method status="PASS" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:admin.adminTestCases@5c18298f]" name="SetUp" is-config="true" duration-ms="3983" started-at="2022-09-01T23:53:24 AEST" finished-at="2022-09-01T23:53:28 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void admin.adminTestCases.addProduct() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addProduct()[pri:0, instance:admin.adminTestCases@5c18298f]" name="addProduct" duration-ms="7163" started-at="2022-09-01T23:53:28 AEST" finished-at="2022-09-01T23:53:36 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:admin.adminTestCases@5c18298f]" name="TearDown" is-config="true" duration-ms="705" started-at="2022-09-01T23:53:36 AEST" finished-at="2022-09-01T23:53:36 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:admin.adminTestCases@5c18298f]" name="SetUp" is-config="true" duration-ms="3396" started-at="2022-09-01T23:53:36 AEST" finished-at="2022-09-01T23:53:40 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void admin.adminTestCases.editProduct() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="editProduct()[pri:0, instance:admin.adminTestCases@5c18298f]" name="editProduct" duration-ms="8505" started-at="2022-09-01T23:53:40 AEST" finished-at="2022-09-01T23:53:48 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProduct -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:admin.adminTestCases@5c18298f]" name="TearDown" is-config="true" duration-ms="1130" started-at="2022-09-01T23:53:48 AEST" finished-at="2022-09-01T23:53:49 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- admin.adminTestCases -->
+      <class name="user.UserTestCases">
+        <test-method status="PASS" signature="DataSetUP()[pri:0, instance:user.UserTestCases@704921a5]" name="DataSetUP" is-config="true" duration-ms="172" started-at="2022-09-01T23:52:08 AEST" finished-at="2022-09-01T23:52:08 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataSetUP -->
+        <test-method status="PASS" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:user.UserTestCases@704921a5]" name="SetUp" is-config="true" duration-ms="9334" started-at="2022-09-01T23:52:08 AEST" finished-at="2022-09-01T23:52:18 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void user.UserTestCases.AddCategoryToCart() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="AddCategoryToCart()[pri:0, instance:user.UserTestCases@704921a5]" name="AddCategoryToCart" duration-ms="10748" started-at="2022-09-01T23:52:18 AEST" finished-at="2022-09-01T23:52:28 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCategoryToCart -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:user.UserTestCases@704921a5]" name="TearDown" is-config="true" duration-ms="820" started-at="2022-09-01T23:52:28 AEST" finished-at="2022-09-01T23:52:29 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:user.UserTestCases@704921a5]" name="SetUp" is-config="true" duration-ms="3952" started-at="2022-09-01T23:52:29 AEST" finished-at="2022-09-01T23:52:33 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void user.UserTestCases.E2ETestUser() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="E2ETestUser()[pri:0, instance:user.UserTestCases@704921a5]" name="E2ETestUser" duration-ms="18304" started-at="2022-09-01T23:52:33 AEST" finished-at="2022-09-01T23:52:51 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E2ETestUser -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:user.UserTestCases@704921a5]" name="TearDown" is-config="true" duration-ms="709" started-at="2022-09-01T23:52:51 AEST" finished-at="2022-09-01T23:52:52 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:user.UserTestCases@704921a5]" name="SetUp" is-config="true" duration-ms="3849" started-at="2022-09-01T23:52:52 AEST" finished-at="2022-09-01T23:52:56 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void user.UserTestCases.ViewCategory() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ViewCategory()[pri:0, instance:user.UserTestCases@704921a5]" name="ViewCategory" duration-ms="10123" started-at="2022-09-01T23:52:56 AEST" finished-at="2022-09-01T23:53:06 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewCategory -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:user.UserTestCases@704921a5]" name="TearDown" is-config="true" duration-ms="763" started-at="2022-09-01T23:53:06 AEST" finished-at="2022-09-01T23:53:07 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:user.UserTestCases@704921a5]" name="SetUp" is-config="true" duration-ms="3875" started-at="2022-09-01T23:53:07 AEST" finished-at="2022-09-01T23:53:11 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void user.UserTestCases.ListCategories() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ListCategories()[pri:1, instance:user.UserTestCases@704921a5]" name="ListCategories" duration-ms="12940" started-at="2022-09-01T23:53:11 AEST" finished-at="2022-09-01T23:53:24 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListCategories -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:user.UserTestCases@704921a5]" name="TearDown" is-config="true" duration-ms="698" started-at="2022-09-01T23:53:24 AEST" finished-at="2022-09-01T23:53:24 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="DataTearDown()[pri:0, instance:user.UserTestCases@704921a5]" name="DataTearDown" is-config="true" duration-ms="291" started-at="2022-09-01T23:53:49 AEST" finished-at="2022-09-01T23:53:50 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataTearDown -->
+      </class> <!-- user.UserTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
